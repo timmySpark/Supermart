@@ -1,0 +1,1504 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supermart</title>
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Icon -->
+    <link rel="icon" href="assets\img\Supermart-logo.png">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+
+<main>
+
+  <section class="fixed">
+    <div class="styletxt color">
+      <p class="text">
+          <img src="assets\svg\mail.svg" alt="">
+          service@supermart.ng
+      </p>
+      <p class="text text-responsive">Install Supermart.ng app
+        <button class=" stylebtn" type="button">Install</button>
+        </p>
+      <p class="text">
+        <img src="assets\svg\location.svg" alt="">
+         Selected Area:<span style="font-weight:600;font-style: italic; "> Alimosho Axis</i>
+        <button class="btnii" name="button">Change</button>
+      </p>
+      <p class="text">
+        <img src="assets\svg\timelapse.svg" alt="">
+        We Deliver 7 Days A Week
+      </p>
+  </div>
+
+  <!-- Navbar -->
+  <div class=" menu main container-fluid">
+    <a href="#" class="img-style">
+      <img src="assets\svg\supermart-logo.svg" width="274" height="60" class="image-style" alt="">
+    </a>
+
+    <!-- search -->
+    <div>
+      <form class="d-flex">
+        <input class=" search-block form-control me-2 w-100" type="search" placeholder="Search Products and brands..." aria-label="Search">
+        <button class="btn btn-style text-white" type="submit">Search</button>
+      </form>
+    </div>
+
+    <div class="text-size">
+      <a  class="" href="#">
+        <img class="svg-width" src="assets\svg\favorite.svg" alt="No logo"/>
+        <span> My Favourites</span>
+      </a>
+      <a class="" href="#">
+        <img class="svg-width" src="assets\svg\shopping_cart_black.svg" alt="No logo">
+        <span class="">My Baskets</span>
+      </a>
+      <a class="signin" href="#">
+        <img class="svg-width" src="assets\svg\account_circle_black.svg" alt="No logo">
+        <span>Login/Register</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- +++++ Dropdowns ++++-->
+  <div class="drp main">
+    <div class="btn-group dropdwn dropdownstyles">
+      <div class="btn"  id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+        <span class="text-white text-capitalize">
+          new additions
+          <img src="assets\svg\caret_down.svg" alt="">
+        </span>
+      </div>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <li><a class="dropdown-item" href="#">New Additions</a></li>
+      </ul>
+    </div>
+
+    <div class="btn-group dropdownstyles">
+      <div class="btn"  id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+        <span class="text-white text-capitalize ">
+          fresh food
+          <img src="assets\svg\caret_down.svg" alt="">
+        </span>
+      </div>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <li><a class="dropdown-item" href="#">Fruits</a></li>
+        <li><a class="dropdown-item" href="#">Vegetables</a></li>
+        <li><a class="dropdown-item" href="#">Meat & Poultry</a></li>
+        <li><a class="dropdown-item" href="#">Sea Food</a></li>
+        <li><a class="dropdown-item" href="#">Bread</a></li>
+        <li><a class="dropdown-item" href="#">Cheese</a></li>
+        <li><a class="dropdown-item" href="#">Sausages,Bacon & Cold Cuts</a></li>
+        <li><a class="dropdown-item" href="#">Yoghurts & Desserts</a></li>
+        <li><a class="dropdown-item" href="#">Eggs</a></li>
+      </ul>
+    </div>
+
+    <div class="btn-group dropdownstyles">
+      <div class="btn"  id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+        <span class="text-white text-capitalize">
+          naija foods
+          <img src="assets\svg\caret_down.svg" alt="">
+        </span>
+      </div>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <li><a class="dropdown-item" href="#">Naija Ingredients</a></li>
+        <li><a class="dropdown-item" href="#">Naija Meat , Poultry & Sea Food</a></li>
+        <li><a class="dropdown-item" href="#">Naija Snacks</a></li>
+      </ul>
+    </div>
+
+    <div class="btn-group dropdownstyles">
+      <div class="btn"  id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+        <span class="text-white text-capitalize">
+          food cupboard
+          <img src="assets\svg\caret_down.svg" alt="">
+        </span>
+      </div>
+      <ul class="dropdown-menu dropdown-width" aria-labelledby="dropdownMenuButton">
+        <li><a class="dropdown-item" href="#">Rice , Pasta & Noodles</a></li>
+        <li><a class="dropdown-item" href="#">Canned Fish & Meat</a></li>
+        <li><a class="dropdown-item" href="#">Canned Fruits & Vegetables</a></li>
+        <li><a class="dropdown-item" href="#">Breakfast Cereals</a></li>
+        <li><a class="dropdown-item" href="#">Sugar & Sweeteners</a></li>
+        <li><a class="dropdown-item" href="#">Jams & Spreads</a></li>
+        <li><a class="dropdown-item" href="#">Salt & Spices</a></li>
+        <li><a class="dropdown-item" href="#">Beans,Seeds & Grains</a></li>
+        <li><a class="dropdown-item" href="#">Custard & Jelly</a></li>
+        <li><a class="dropdown-item" href="#">Coconut Milk</a></li>
+        <li><a class="dropdown-item" href="#">Cake,Bake, Pancakes</a></li>
+        <li><a class="dropdown-item" href="#">Swallow</a></li>
+        <li><a class="dropdown-item" href="#">Indian Food</a></li>
+        <li><a class="dropdown-item" href="#">Olives and Pickles</a></li>
+        <li><a class="dropdown-item" href="#">Soup</a></li>
+      </ul>
+    </div>
+
+    <div class="btn-group dropdownstyles">
+      <div class="btn"  id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+        <span class="text-white text-capitalize">
+          oil & sauces
+          <img src="assets\svg\caret_down.svg" alt="">
+        </span>
+      </div>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <li><a class="dropdown-item" href="#">Groundnut & Vegetable Oil</a></li>
+        <li><a class="dropdown-item" href="#">Palm Oil</a></li>
+        <li><a class="dropdown-item" href="#">Corn & Canola Oil</a></li>
+        <li><a class="dropdown-item" href="#">Tinned Tomatoes</a></li>
+        <li><a class="dropdown-item" href="#">Cooking Sauces</a></li>
+        <li><a class="dropdown-item" href="#">Vinegar</a></li>
+        <li><a class="dropdown-item" href="#">Salad Dressing</a></li>
+        <li><a class="dropdown-item" href="#">Table Sauces</a></li>
+        <li><a class="dropdown-item" href="#">Tomato Paste</a></li>
+        <li><a class="dropdown-item" href="#">Tinned Tomatoes</a></li>
+        <li><a class="dropdown-item" href="#">Olive Oil</a></li>
+        <li><a class="dropdown-item" href="#">Specialty Oils & Cooking wine</a></li>
+        <li><a class="dropdown-item" href="#">Cooking & whipping Cream</a></li>
+        <li><a class="dropdown-item" href="#">Table Sauces</a></li>
+      </ul>
+    </div>
+
+    <div class="btn-group dropdownstyles">
+      <div class="btn"  id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+        <span class="text-white text-capitalize">
+          alcohol
+          <img src="assets\svg\caret_down.svg" alt="">
+        </span>
+      </div>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <li><a class="dropdown-item" href="#">Beer,Stout & Cider</a></li>
+        <li><a class="dropdown-item" href="#">Red Wine</a></li>
+        <li><a class="dropdown-item" href="#">White Wine</a></li>
+        <li><a class="dropdown-item" href="#">Rose Wine</a></li>
+        <li><a class="dropdown-item" href="#">Sparkling Wine</a></li>
+        <li><a class="dropdown-item" href="#">Champagne</a></li>
+        <li><a class="dropdown-item" href="#">Brandy ,Cognac,Whisky</a></li>
+        <li><a class="dropdown-item" href="#">Aperitifs & Liqueurs</a></li>
+        <li><a class="dropdown-item" href="#">Gin & Vodka</a></li>
+        <li><a class="dropdown-item" href="#">Rum</a></li>
+        <li><a class="dropdown-item" href="#">Tequila</a></li>
+        <li><a class="dropdown-item" href="#">Gin & Vodka</a></li>
+        <li><a class="dropdown-item" href="#">Alcopops</a></li>
+        <li><a class="dropdown-item" href="#">Bitter & Herbal drinks</a></li>
+      </ul>
+    </div>
+
+    <div class="btn-group dropdownstyles">
+      <div class="btn"  id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+        <span class="text-white text-capitalize">
+          household
+          <img src="assets\svg\caret_down.svg" alt="">
+        </span>
+      </div>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <li><a class="dropdown-item" href="#">Toilet Tissue</a></li>
+        <li><a class="dropdown-item" href="#">Facial Tissue</a></li>
+        <li><a class="dropdown-item" href="#">Laundry</a></li>
+        <li><a class="dropdown-item" href="#">Insecticides and Rat Traps</a></li>
+        <li><a class="dropdown-item" href="#">Air Freshners and Fragrance</a></li>
+        <li><a class="dropdown-item" href="#">Batteries & Light Bulbs</a></li>  <li><a class="dropdown-item" href="#">Shoe Polish</a></li>
+        <li><a class="dropdown-item" href="#">Pets</a></li>
+        <li><a class="dropdown-item" href="#">Home Decor</a></li>
+        <li><a class="dropdown-item" href="#">Car Care</a></li>
+        <li><a class="dropdown-item" href="#">Tools</a></li>
+        <li><a class="dropdown-item" href="#">Hand Wash & Sanitizers</a></li>
+        <li><a class="dropdown-item" href="#">Bedding & Towels</a></li>
+        <li><a class="dropdown-item" href="#">Waste Bins & Bin Bags</a></li>
+      </ul>
+    </div>
+
+    <div class="btn-group dropdownstyles">
+      <div class="btn"  id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+        <span class="text-white text-capitalize">
+          toiletries
+          <img src="assets\svg\caret_down.svg" alt="">
+        </span>
+      </div>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <li><a class="dropdown-item" href="#">Bath Time</a></li>
+        <li><a class="dropdown-item" href="#">Deodorant and Body Sprays</a></li>
+        <li><a class="dropdown-item" href="#">Moisturizers and Lotions</a></li>
+        <li><a class="dropdown-item" href="#">Oral Care</a></li>
+        <li><a class="dropdown-item" href="#">Facial Care</a></li>
+        <li><a class="dropdown-item" href="#">Women Shaving & Hair Removal</a></li>
+        <li><a class="dropdown-item" href="#">Hair Care</a></li>
+        <li><a class="dropdown-item" href="#">Make Up & Beauty</a></li>
+        <li><a class="dropdown-item" href="#">Feminine Care</a></li>
+        <li><a class="dropdown-item" href="#">Men's Shaving</a></li>
+        <li><a class="dropdown-item" href="#">Feet Care</a></li>
+        <li><a class="dropdown-item" href="#">Hand Lotion</a></li>
+        <li><a class="dropdown-item" href="#">Cotton Wools & Buds</a></li>
+        <li><a class="dropdown-item" href="#">Powder</a></li>
+        <li><a class="dropdown-item" href="#">Perfumes for Women</a></li>
+        <li><a class="dropdown-item" href="#">Colognes for Men</a></li>
+        <li><a class="dropdown-item" href="#">Skin Tone</a></li>
+        <li><a class="dropdown-item" href="#">Men's Zone</a></li>
+      </ul>
+    </div>
+
+    <div class="btn-group dropdownstyles">
+      <div class="btn"  id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+        <span class="text-white text-capitalize">
+          Health & wellness
+          <img src="assets\svg\caret_down.svg" alt="">
+        </span>
+      </div>
+      <ul class="dropdown-menu text-capitalize" aria-labelledby="dropdownMenuButton">
+        <li><a class="dropdown-item" href="#">vitamins & supplements</a></li>
+        <li><a class="dropdown-item" href="#">Coughing & sneezing</a></li>
+        <li><a class="dropdown-item" href="#">stomach & bowel</a></li>
+        <li><a class="dropdown-item" href="#">allergy & infections</a></li>
+        <li><a class="dropdown-item" href="#">diet & weight loss</a></li>
+        <li><a class="dropdown-item" href="#">contraceptions & sexual pleasure</a></li>
+        <li><a class="dropdown-item" href="#">conception & pregnancy</a></li>
+        <li><a class="dropdown-item" href="#">sleep aids</a></li>
+        <li><a class="dropdown-item" href="#">eye & ear care</a></li>
+        <li><a class="dropdown-item" href="#">heart & blood </a></li>
+        <li><a class="dropdown-item" href="#">First aid & test kits</a></li>
+        <li><a class="dropdown-item" href="#">braces & joint support</a></li>
+        <li><a class="dropdown-item" href="#">exercise & fitness</a></li>
+        <li><a class="dropdown-item" href="#">aromatherapy & essential oils</a></li>
+        <li><a class="dropdown-item" href="#">head aches & pain</a></li>
+        <li><a class="dropdown-item" href="#">covid care </a></li>
+      </ul>
+    </div>
+
+    <div class="btn-group dropdwn dropdownstyles">
+      <div class="btn"  id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+        <span class="text-white text-capitalize">
+          mega discount
+          <img src="assets\svg\caret_down.svg" alt="">
+        </span>
+      </div>
+      <ul class="dropdown-menu text-capitalize" aria-labelledby="dropdownMenuButton">
+        <li><a class="dropdown-item" href="#">reduced to clear</a></li>
+        <li><a class="dropdown-item" href="#">Mega discounts</a></li>
+      </ul>
+    </div>
+
+    <div class="btn-group dropdownstyles">
+      <div class="btn"  id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+        <span class="text-white text-capitalize">
+          frozen
+          <img src="assets\svg\caret_down.svg" alt="">
+        </span>
+      </div>
+      <ul class="dropdown-menu text-capitalize" aria-labelledby="dropdownMenuButton">
+        <li><a class="dropdown-item" href="#">butter & magarine</a></li>
+        <li><a class="dropdown-item" href="#">chips</a></li>
+        <li><a class="dropdown-item" href="#">ice cream</a></li>
+        <li><a class="dropdown-item" href="#">mixed vegetables</a></li>
+        <li><a class="dropdown-item" href="#">assorted vegetables</a></li>
+        <li><a class="dropdown-item" href="#">ready meals</a></li>
+      </ul>
+    </div>
+
+    <div class="btn-group dropdownstyles">
+      <div class="btn"  id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+        <span class="text-white text-capitalize">
+          mile 12 market
+          <img src="assets\svg\caret_down.svg" alt="">
+        </span>
+      </div>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <li><a class="dropdown-item" href="#">buy in bulk</a></li>
+      </ul>
+    </div>
+
+    <div class="btn-group dropdownstyles">
+      <div class="btn"  id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+        <span class="text-white text-capitalize">
+          snacks
+          <img src="assets\svg\caret_down.svg" alt="">
+        </span>
+      </div>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <li><a class="dropdown-item" href="#">biscuit & wafers</a></li>
+        <li><a class="dropdown-item" href="#">chocolates</a></li>
+        <li><a class="dropdown-item" href="#">nut & dried Fruits</a></li>
+        <li><a class="dropdown-item" href="#">potato & plantain chips</a></li>
+        <li><a class="dropdown-item" href="#">cocktail snacks</a></li>
+        <li><a class="dropdown-item" href="#">popcorn</a></li>
+        <li><a class="dropdown-item" href="#">energy & granola bars</a></li>
+        <li><a class="dropdown-item" href="#">sweet & chewing gum</a></li>
+        <li><a class="dropdown-item" href="#">indian snacks</a></li>
+        <li><a class="dropdown-item" href="#">Beef rolls & cakes</a></li>
+      </ul>
+    </div>
+
+    <div class="btn-group dropdownstyles">
+      <div class="btn"  id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+        <span class="text-white text-capitalize">
+          kitchen & dining
+          <img src="assets\svg\caret_down.svg" alt="">
+        </span>
+      </div>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <li><a class="dropdown-item" href="#">kitchen towels & serviettes</a></li>
+        <li><a class="dropdown-item" href="#">foil & cling film</a></li>
+        <li><a class="dropdown-item" href="#">Freezer & sandwich bags</a></li>
+      </ul>
+    </div>
+
+    <div class="btn-group dropdownstyles">
+      <div class="btn"  id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+        <span class="text-white text-capitalize">
+          dropdown
+          <img src="assets\svg\caret_down.svg" alt="">
+        </span>
+      </div>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <li><a class="dropdown-item" href="#">kitchen towels & serviettes</a></li>
+        <li><a class="dropdown-item" href="#">foil & cling film</a></li>
+        <li><a class="dropdown-item" href="#">Freezer & sandwich bags</a></li>
+      </ul>
+    </div>
+    <div class="btn-group dropdownstyles">
+      <div class="btn"  id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+        <span class="text-white text-capitalize">
+          dropdown
+          <img src="assets\svg\caret_down.svg" alt="">
+        </span>
+      </div>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <li><a class="dropdown-item" href="#">kitchen towels & serviettes</a></li>
+        <li><a class="dropdown-item" href="#">foil & cling film</a></li>
+        <li><a class="dropdown-item" href="#">Freezer & sandwich bags</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- +++++ End of Dropdowns ++++ -->
+
+</section>
+
+<!-- Carousels -->
+<div class="container-fluid d-block ">
+  <div class="emptydiv"> </div>
+  <div class="row ">
+    <div class="col-8 ">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets\img\car-001.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets\img\car-002.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets\img\car-003.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon " aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="col-4  respimg">
+      <img src="assets\img\car-008.png" class="car-img"  alt="">
+      <img src="assets\img\car-006.png" class="img-width" alt="">
+    </div>
+  </div>
+</div>
+<!-- Carousels -->
+
+<!-- sec Carousels
+<div class="container-fluid ">
+<div class="emptydiv"></div>
+<div id="carouselExampleIndicators" class="carousel slide"  data-bs-ride="carousel">
+<div class="carousel-indicators">
+<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+</div>
+<div class="carousel-inner">
+<div class="carousel-item active">
+<img src="assets\img\car-001.jpeg" class="d-block w-100" alt="...">
+</div>
+<div class="carousel-item">
+<img src="assets\img\car-002.png" class="d-block w-100" alt="...">
+</div>
+<div class="carousel-item">
+<img src="assets\img\car-003.png" class="d-block w-100" alt="...">
+</div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+<span class="carousel-control-prev-icon " aria-hidden="true"></span>
+<span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+<span class="carousel-control-next-icon " aria-hidden="true"></span>
+<span class="visually-hidden">Next</span>
+</button>
+</div>
+</div>
+sec Carousels -->
+
+<!-- Cards -->
+<div class="container-fluid">
+  <div class="emptydiv"></div>
+  <div class="contain">
+    <div class="banner">
+      <h3 id="format">Reduced to clear</h3>
+      <a href="#">View more >></a>
+    </div>
+    <div class="card-content">
+      <a href="cards.html">
+        <div class="img-block">
+          <img class="card-image" src="assets\img\prod-img-2.jpg" alt="">
+        </div>
+        <div class="card-desc">
+          <span class="c-details">
+            Mama doc choco pancake mix 700g
+          </span>
+        </a>
+        <div class="p-price">
+          <div>
+            <span>#1,990</span>
+            <span class="odd-price">#2,150</span>
+          </div>
+          <div class="icon-resp">
+            <img src="assets\svg\outline_favourite.svg" alt="">
+            <!-- <img src="assets\svg\eye.svg" class="fa4x" alt=""> -->
+          </div>
+        </div>
+        <!-- mobile view btn -->
+        <button type="button" class=" cart-responsive" name="button">
+          add to cart
+        </button>
+        <!-- xxx mobile view btn -->
+      </div>
+      <div class="to-cart">
+        <button type="button" class="cart-btn" name="button">
+          add to cart
+        </button>
+      </div>
+  </div>
+  <!-- Second product -->
+  <div class="card-content">
+    <a href="#">
+      <div class="img-block">
+        <img class="card-image" src="assets\img\prod-img-5.jpg" alt="">
+      </div>
+      <div class="card-desc">
+        <span class="c-details">
+          Lux hand wash blooming flower 500ml
+        </span>
+      </a>
+      <div class="p-price">
+        <div>
+          <span>#1,190</span>
+          <span class="odd-price">#1,295</span>
+        </div>
+        <img src="assets\svg\outline_favourite.svg" alt="">
+      </div>
+      <!-- mobile view btn -->
+      <button type="button" class=" cart-responsive" name="button">
+        add to cart
+      </button>
+      <!-- xxx mobile view btn -->
+    </div>
+    <div class="to-cart">
+      <button type="button" class="cart-btn" name="button">
+        add to cart
+      </button>
+    </div>
+  </div>
+  <!-- xxx sec product xxx -->
+
+  <!-- third product -->
+  <div class="card-content">
+    <a href="#">
+      <div class="img-block">
+        <img class="card-image" src="assets\img\prod-img-4.jpg" alt="">
+      </div>
+      <div class="card-desc">
+        <span class="c-details">
+          African pride olive miracle relaxer 8 season pack
+        </span>
+      </a>
+      <div class="p-price">
+        <div>
+          <span>#2,990</span>
+          <span class="odd-price">#3,270</span>
+        </div>
+        <img src="assets\svg\outline_favourite.svg" alt="">
+      </div>
+      <!-- mobile view btn -->
+      <button type="button" class=" cart-responsive" name="button">
+        add to cart
+      </button>
+      <!-- xxx mobile view btn -->
+    </div>
+    <div class="to-cart">
+      <button type="button" class="cart-btn" name="button">
+        add to cart
+      </button>
+    </div>
+  </div>
+  <!-- xxx third product xxx -->
+
+  <!-- fourth product -->
+  <div class="card-content">
+    <a href="#">
+      <div class="img-block">
+        <img class="card-image" src="assets\img\prod-img-2.jpg" alt="">
+      </div>
+      <div class="card-desc">
+        <span class="c-details">
+          Mama doc choco pancake mix 700g
+        </span>
+      </a>
+      <div class="p-price">
+        <div>
+          <span>#1,990</span>
+          <span class="odd-price">#2,150</span>
+        </div>
+        <img src="assets\svg\outline_favourite.svg" alt="">
+      </div>
+      <!-- mobile view btn -->
+      <button type="button" class=" cart-responsive" name="button">
+        add to cart
+      </button>
+      <!-- xxx mobile view btn -->
+    </div>
+    <div class="to-cart">
+      <button type="button" class="cart-btn" name="button">
+        add to cart
+      </button>
+    </div>
+  </div>
+  <!-- xxx fourth product xxx -->
+
+  <!-- fifth product -->
+  <div class="card-content">
+    <a href="#">
+      <div class="img-block">
+        <img class="card-image" src="assets\img\prod-img-2.jpg" alt="">
+      </div>
+      <div class="card-desc">
+        <span class="c-details">
+          Mama doc choco pancake mix 700g
+        </span>
+      </a>
+      <div class="p-price">
+        <div>
+          <span>#1,990</span>
+          <span class="odd-price">#2,150</span>
+        </div>
+        <img src="assets\svg\outline_favourite.svg" alt="">
+      </div>
+      <!-- mobile view btn -->
+      <button type="button" class=" cart-responsive" name="button">
+        add to cart
+      </button>
+      <!-- xxx mobile view btn -->
+    </div>
+    <div class="to-cart">
+      <button type="button" class="cart-btn" name="button">
+        add to cart
+      </button>
+    </div>
+  </div>
+  <!-- xxx fifth product xxx -->
+  <!-- sixth product -->
+  <div class="card-content">
+    <a href="#">
+      <div class="img-block">
+        <img class="card-image" src="assets\img\prod-img-2.jpg" alt="">
+      </div>
+      <div class="card-desc">
+        <span class="c-details">
+          Mama doc choco pancake mix 700g
+        </span>
+      </a>
+      <div class="p-price">
+        <div>
+          <span>#1,990</span>
+          <span class="odd-price">#2,150</span>
+        </div>
+        <img src="assets\svg\outline_favourite.svg" alt="">
+      </div>
+      <!-- mobile view btn -->
+      <button type="button" class=" cart-responsive" name="button">
+        add to cart
+      </button>
+      <!-- xxx mobile view btn -->
+    </div>
+    <div class="to-cart">
+      <button type="button" class="cart-btn" name="button">
+        add to cart
+      </button>
+    </div>
+  </div>
+  <!-- xxx sixth product xxx -->
+</div>
+</div>
+<!--xxx Cards xxx-->
+
+<!-- secCards -->
+<div class="container-fluid">
+  <div class="emptydiv"></div>
+  <div class="contain">
+    <div class="banner">
+      <h3 id="format">Food Cupboard</h3>
+      <a href="#">View more >></a>
+    </div>
+    <div class="card-content">
+      <a href="#">
+        <div class="img-block">
+          <img class="card-image" src="assets\img\prod-img-6.jpg" alt="">
+        </div>
+        <div class="card-desc">
+          <span class="c-details">
+            Uncle ben's cantonese 450g
+          </span>
+        </a>
+        <div class="p-price">
+          <span>#1,520</span>
+          <img src="assets\svg\outline_favourite.svg" alt="">
+        </div>
+        <button type="button" class=" cart-responsive" name="button">
+          add to cart
+        </button>
+      </div>
+      <div class="to-cart">
+        <button type="button" class="cart-btn" name="button">
+          add to cart
+        </button>
+      </div>
+    </div>
+
+    <!-- Second product -->
+    <div class="card-content">
+      <a href="#">
+        <div class="img-block">
+          <img class="card-image" src="assets\img\prod-img-3.jpg" alt="">
+        </div>
+        <div class="card-desc">
+          <span class="c-details">
+            Napa valley fluke tuna fish n Vegetables
+            oil 170g x 2
+          </span>
+        </a>
+        <div class="p-price">
+          <span>#1,990</span>
+          <img src="assets\svg\outline_favourite.svg" alt="">
+        </div>
+        <button type="button" class=" cart-responsive" name="button">
+          add to cart
+        </button>
+      </div>
+      <div class="to-cart">
+        <button type="button" class="cart-btn" name="button">
+          add to cart
+        </button>
+      </div>
+    </div>
+    <!-- xxx sec product xxx -->
+
+    <!-- third product -->
+    <div class="card-content">
+      <a href="#">
+        <div class="img-block">
+          <img class="card-image" src="assets\img\prod-img-1.jpg" alt="">
+        </div>
+        <div class="card-desc">
+          <span class="c-details">
+            Herman's white Oat tin 500g
+          </span>
+        </a>
+        <div class="p-price">
+          <span>#1,110</span>
+          <img src="assets\svg\outline_favourite.svg" alt="">
+        </div>
+        <button type="button" class=" cart-responsive" name="button">
+          add to cart
+        </button>
+      </div>
+      <div class="to-cart">
+        <button type="button" class="cart-btn" name="button">
+          add to cart
+        </button>
+      </div>
+    </div>
+    <!-- xxx third product xxx -->
+
+    <!-- fourth product -->
+    <div class="card-content">
+      <a href="#">
+        <div class="img-block">
+          <img class="card-image" src="assets\img\prod-img-2.jpg" alt="">
+        </div>
+        <div class="card-desc">
+          <span class="c-details">
+            Mama doc choco pancake mix 700g
+          </span>
+        </a>
+        <div class="p-price">
+          <div>
+            <span>#1,990</span>
+            <span class="odd-price">#2,150</span>
+          </div>
+          <img src="assets\svg\outline_favourite.svg" alt="">
+        </div>
+        <button type="button" class=" cart-responsive" name="button">
+          add to cart
+        </button>
+      </div>
+      <div class="to-cart">
+        <button type="button" class="cart-btn" name="button">
+          add to cart
+        </button>
+      </div>
+    </div>
+    <!-- xxx fourth product xxx -->
+
+    <!-- fifth product -->
+    <div class="card-content">
+      <a href="#">
+        <div class="img-block">
+          <img class="card-image" src="assets\img\prod-img-2.jpg" alt="">
+        </div>
+        <div class="card-desc">
+          <span class="c-details">
+            Mama doc choco pancake mix 700g
+          </span>
+        </a>
+        <div class="p-price">
+          <div>
+            <span>#1,990</span>
+            <span class="odd-price">#2,150</span>
+          </div>
+          <img src="assets\svg\outline_favourite.svg" alt="">
+        </div>
+        <button type="button" class=" cart-responsive" name="button">
+          add to cart
+        </button>
+      </div>
+      <div class="to-cart">
+        <button type="button" class="cart-btn" name="button">
+          add to cart
+        </button>
+      </div>
+    </div>
+    <!-- xxx fifth product xxx -->
+    <!-- sixth product -->
+    <div class="card-content">
+      <a href="#">
+        <div class="img-block">
+          <img class="card-image" src="assets\img\prod-img-2.jpg" alt="">
+        </div>
+        <div class="card-desc">
+          <span class="c-details">
+            Mama doc choco pancake mix 700g
+          </span>
+        </a>
+        <div class="p-price">
+          <div>
+            <span>#1,990</span>
+            <span class="odd-price">#2,150</span>
+          </div>
+          <img src="assets\svg\outline_favourite.svg" alt="">
+        </div>
+        <button type="button" class=" cart-responsive" name="button">
+          add to cart
+        </button>
+      </div>
+      <div class="to-cart">
+        <button type="button" class="cart-btn" name="button">
+          add to cart
+        </button>
+      </div>
+    </div>
+    <!-- xxx sixth product xxx -->
+  </div>
+</div>
+<!--xxx secCards xxx-->
+
+<div class=" container-fluid image-link">
+  <div class="emptydiv"></div>
+  <a href="#">
+    <img src="assets\img\car-005.jpeg " class="w-100"  alt="">
+  </a>
+</div>
+
+<!-- thirdCard -->
+<div class="container-fluid">
+  <div class="emptydiv"></div>
+  <div class="contain">
+    <div class="banner">
+      <h3 id="format">fresh food</h3>
+      <a href="#">View more >></a>
+    </div>
+    <div class="card-content">
+      <a href="cards.html">
+        <div class="img-block">
+          <img class="card-image" src="assets\img\prod-img-2.jpg" alt="">
+        </div>
+        <div class="card-desc">
+          <span class="c-details">
+            Mama doc choco pancake mix 700g
+          </span>
+        </a>
+        <div class="p-price">
+          <div>
+            <span>#1,990</span>
+            <span class="odd-price">#2,150</span>
+          </div>
+          <img src="assets\svg\outline_favourite.svg" alt="">
+        </div>
+        <button type="button" class=" cart-responsive" name="button">
+          add to cart
+        </button>
+      </div>
+      <div class="to-cart">
+        <button type="button" class="cart-btn" name="button">
+          add to cart
+        </button>
+      </div>
+    </div>
+
+    <!-- Second product -->
+    <div class="card-content">
+      <a href="#">
+        <div class="img-block">
+          <img class="card-image" src="assets\img\prod-img-5.jpg" alt="">
+        </div>
+        <div class="card-desc">
+          <span class="c-details">
+            Lux hand wash blooming flower 500ml
+          </span>
+        </a>
+        <div class="p-price">
+          <div>
+            <span>#1,190</span>
+            <span class="odd-price">#1,295</span>
+          </div>
+          <img src="assets\svg\outline_favourite.svg" alt="">
+        </div>
+        <button type="button" class=" cart-responsive" name="button">
+          add to cart
+        </button>
+      </div>
+      <div class="to-cart">
+        <button type="button" class="cart-btn" name="button">
+          add to cart
+        </button>
+      </div>
+    </div>
+    <!-- xxx sec product xxx -->
+
+    <!-- third product -->
+    <div class="card-content">
+      <a href="#">
+        <div class="img-block">
+          <img class="card-image" src="assets\img\prod-img-4.jpg" alt="">
+        </div>
+        <div class="card-desc">
+          <span class="c-details">
+            African pride olive miracle relaxer 8 season pack
+          </span>
+        </a>
+        <div class="p-price">
+          <div>
+            <span>#2,990</span>
+            <span class="odd-price">#3,270</span>
+          </div>
+          <img src="assets\svg\outline_favourite.svg" alt="">
+        </div>
+        <button type="button" class=" cart-responsive" name="button">
+          add to cart
+        </button>
+      </div>
+      <div class="to-cart">
+        <button type="button" class="cart-btn" name="button">
+          add to cart
+        </button>
+      </div>
+    </div>
+    <!-- xxx third product xxx -->
+
+    <!-- fourth product -->
+    <div class="card-content">
+      <a href="#">
+        <div class="img-block">
+          <img class="card-image" src="assets\img\prod-img-2.jpg" alt="">
+        </div>
+        <div class="card-desc">
+          <span class="c-details">
+            Mama doc choco pancake mix 700g
+          </span>
+        </a>
+        <div class="p-price">
+          <div>
+            <span>#1,990</span>
+            <span class="odd-price">#2,150</span>
+          </div>
+          <img src="assets\svg\outline_favourite.svg" alt="">
+        </div>
+        <button type="button" class=" cart-responsive" name="button">
+          add to cart
+        </button>
+      </div>
+      <div class="to-cart">
+        <button type="button" class="cart-btn" name="button">
+          add to cart
+        </button>
+      </div>
+    </div>
+    <!-- xxx fourth product xxx -->
+
+    <!-- fifth product -->
+    <div class="card-content">
+      <a href="#">
+        <div class="img-block">
+          <img class="card-image" src="assets\img\prod-img-2.jpg" alt="">
+        </div>
+        <div class="card-desc">
+          <span class="c-details">
+            Mama doc choco pancake mix 700g
+          </span>
+        </a>
+        <div class="p-price">
+          <div>
+            <span>#1,990</span>
+            <span class="odd-price">#2,150</span>
+          </div>
+          <img src="assets\svg\outline_favourite.svg" alt="">
+        </div>
+        <button type="button" class=" cart-responsive" name="button">
+          add to cart
+        </button>
+      </div>
+      <div class="to-cart">
+        <button type="button" class="cart-btn" name="button">
+          add to cart
+        </button>
+      </div>
+    </div>
+    <!-- xxx fifth product xxx -->
+
+    <!-- sixth product -->
+    <div class="card-content">
+      <a href="#">
+        <div class="img-block">
+          <img class="card-image" src="assets\img\prod-img-2.jpg" alt="">
+        </div>
+        <div class="card-desc">
+          <span class="c-details">
+            Mama doc choco pancake mix 700g
+          </span>
+        </a>
+        <div class="p-price">
+          <div>
+            <span>#1,990</span>
+            <span class="odd-price">#2,150</span>
+          </div>
+          <img src="assets\svg\outline_favourite.svg" alt="">
+        </div>
+        <button type="button" class=" cart-responsive" name="button">
+          add to cart
+        </button>
+      </div>
+      <div class="to-cart">
+        <button type="button" class="cart-btn" name="button">
+          add to cart
+        </button>
+      </div>
+    </div>
+    <!-- xxx sixth product xxx -->
+  </div>
+</div>
+<!--xxx Cards xxx-->
+
+<!-- fourthcard -->
+<div class="container-fluid">
+  <div class="emptydiv"></div>
+  <div class="contain">
+    <div class="banner">
+      <h3 id="format">household</h3>
+      <a href="#">View more >></a>
+    </div>
+    <div class="card-content">
+      <a href="#">
+        <div class="img-block">
+          <img class="card-image" src="assets\img\prod-img-6.jpg" alt="">
+        </div>
+        <div class="card-desc">
+          <span class="c-details">
+            Uncle ben's cantonese 450g
+          </span>
+        </a>
+        <div class="p-price">
+          <span>#1,520</span>
+          <img src="assets\svg\outline_favourite.svg" alt="">
+        </div>
+        <button type="button" class=" cart-responsive" name="button">
+          add to cart
+        </button>
+      </div>
+      <div class="to-cart">
+        <button type="button" class="cart-btn" name="button">
+          add to cart
+        </button>
+      </div>
+    </div>
+
+    <!-- Second product -->
+    <div class="card-content">
+      <a href="#">
+        <div class="img-block">
+          <img class="card-image" src="assets\img\prod-img-3.jpg" alt="">
+        </div>
+        <div class="card-desc">
+          <span class="c-details">
+            Napa valley fluke tuna fish n Vegetables
+            oil 170g x 2
+          </span>
+        </a>
+        <div class="p-price">
+          <span>#1,990</span>
+          <img src="assets\svg\outline_favourite.svg" alt="">
+        </div>
+        <button type="button" class=" cart-responsive" name="button">
+          add to cart
+        </button>
+      </div>
+      <div class="to-cart">
+        <button type="button" class="cart-btn" name="button">
+          add to cart
+        </button>
+      </div>
+    </div>
+    <!-- xxx sec product xxx -->
+
+    <!-- third product -->
+    <div class="card-content">
+      <a href="#">
+        <div class="img-block">
+          <img class="card-image" src="assets\img\prod-img-1.jpg" alt="">
+        </div>
+        <div class="card-desc">
+          <span class="c-details">
+            Herman's white Oat tin 500g
+          </span>
+        </a>
+        <div class="p-price">
+          <span>#1,110</span>
+          <img src="assets\svg\outline_favourite.svg" alt="">
+        </div>
+        <button type="button" class=" cart-responsive" name="button">
+          add to cart
+        </button>
+      </div>
+      <div class="to-cart">
+        <button type="button" class="cart-btn" name="button">
+          add to cart
+        </button>
+      </div>
+    </div>
+    <!-- xxx third product xxx -->
+
+    <!-- fourth product -->
+    <div class="card-content">
+      <a href="#">
+        <div class="img-block">
+          <img class="card-image" src="assets\img\prod-img-2.jpg" alt="">
+        </div>
+        <div class="card-desc">
+          <span class="c-details">
+            Mama doc choco pancake mix 700g
+          </span>
+        </a>
+        <div class="p-price">
+          <div>
+            <span>#1,990</span>
+            <span class="odd-price">#2,150</span>
+          </div>
+          <img src="assets\svg\outline_favourite.svg" alt="">
+        </div>
+        <button type="button" class=" cart-responsive" name="button">
+          add to cart
+        </button>
+      </div>
+      <div class="to-cart">
+        <button type="button" class="cart-btn" name="button">
+          add to cart
+        </button>
+      </div>
+    </div>
+    <!-- xxx fourth product xxx -->
+
+    <!-- fifth product -->
+    <div class="card-content">
+      <a href="#">
+        <div class="img-block">
+          <img class="card-image" src="assets\img\prod-img-2.jpg" alt="">
+        </div>
+        <div class="card-desc">
+          <span class="c-details">
+            Mama doc choco pancake mix 700g
+          </span>
+        </a>
+        <div class="p-price">
+          <div>
+            <span>#1,990</span>
+            <span class="odd-price">#2,150</span>
+          </div>
+          <img src="assets\svg\outline_favourite.svg" alt="">
+        </div>
+        <button type="button" class=" cart-responsive" name="button">
+          add to cart
+        </button>
+      </div>
+      <div class="to-cart">
+        <button type="button" class="cart-btn" name="button">
+          add to cart
+        </button>
+      </div>
+    </div>
+    <!-- xxx fifth product xxx -->
+
+    <!-- sixth product -->
+    <div class="card-content">
+      <a href="#">
+        <div class="img-block">
+          <img class="card-image" src="assets\img\prod-img-2.jpg" alt="">
+        </div>
+        <div class="card-desc">
+          <span class="c-details">
+            Mama doc choco pancake mix 700g
+          </span>
+        </a>
+        <div class="p-price">
+          <div>
+            <span>#1,990</span>
+            <span class="odd-price">#2,150</span>
+          </div>
+          <img src="assets\svg\outline_favourite.svg" alt="">
+        </div>
+        <button type="button" class=" cart-responsive" name="button">
+          add to cart
+        </button>
+      </div>
+      <div class="to-cart">
+        <button type="button" class="cart-btn" name="button">
+          add to cart
+        </button>
+      </div>
+    </div>
+    <!-- xxx sixth product xxx -->
+  </div>
+</div>
+<!--xxx fourthcard xxx-->
+
+<div class=" container-fluid image-link">
+  <div class="emptydiv"></div>
+  <a href="#">
+    <img src="assets\img\car-004.jpeg" class="w-100"  alt="">
+  </a>
+</div>
+
+<!-- fifth card -->
+<div class="container-fluid">
+  <div class="emptydiv"></div>
+  <div class="contain">
+    <div class="banner">
+      <h3 id="format">drinks</h3>
+      <a href="#">View more >></a>
+    </div>
+    <div class="card-content">
+      <a href="#">
+        <div class="img-block">
+          <img class="card-image" src="assets\img\prod-img-6.jpg" alt="">
+        </div>
+        <div class="card-desc">
+          <span class="c-details">
+            Uncle ben's cantonese 450g
+          </span>
+        </a>
+        <div class="p-price">
+          <span>#1,520</span>
+          <img src="assets\svg\outline_favourite.svg" alt="">
+        </div>
+        <button type="button" class=" cart-responsive" name="button">
+          add to cart
+        </button>
+      </div>
+      <div class="to-cart">
+        <button type="button" class="cart-btn" name="button">
+          add to cart
+        </button>
+      </div>
+    </div>
+
+    <!-- Second product -->
+    <div class="card-content">
+      <a href="#">
+        <div class="img-block">
+          <img class="card-image" src="assets\img\prod-img-3.jpg" alt="">
+        </div>
+        <div class="card-desc">
+          <span class="c-details">
+            Napa valley fluke tuna fish n Vegetables
+            oil 170g x 2
+          </span>
+        </a>
+        <div class="p-price">
+          <span>#1,990</span>
+          <img src="assets\svg\outline_favourite.svg" alt="">
+        </div>
+        <button type="button" class=" cart-responsive" name="button">
+          add to cart
+        </button>
+      </div>
+      <div class="to-cart">
+        <button type="button" class="cart-btn" name="button">
+          add to cart
+        </button>
+      </div>
+    </div>
+    <!-- xxx sec product xxx -->
+
+    <!-- third product -->
+    <div class="card-content">
+      <a href="#">
+        <div class="img-block">
+          <img class="card-image" src="assets\img\prod-img-1.jpg" alt="">
+        </div>
+        <div class="card-desc">
+          <span class="c-details">
+            Herman's white Oat tin 500g
+          </span>
+        </a>
+        <div class="p-price">
+          <span>#1,110</span>
+          <img src="assets\svg\outline_favourite.svg" alt="">
+        </div>
+        <button type="button" class=" cart-responsive" name="button">
+          add to cart
+        </button>
+      </div>
+      <div class="to-cart">
+        <button type="button" class="cart-btn" name="button">
+          add to cart
+        </button>
+      </div>
+    </div>
+    <!-- xxx third product xxx -->
+
+    <!-- fourth product -->
+    <div class="card-content">
+      <a href="#">
+        <div class="img-block">
+          <img class="card-image" src="assets\img\prod-img-2.jpg" alt="">
+        </div>
+        <div class="card-desc">
+          <span class="c-details">
+            Mama doc choco pancake mix 700g
+          </span>
+        </a>
+        <div class="p-price">
+          <div>
+            <span>#1,990</span>
+            <span class="odd-price">#2,150</span>
+          </div>
+          <img src="assets\svg\outline_favourite.svg" alt="">
+        </div>
+        <button type="button" class=" cart-responsive" name="button">
+          add to cart
+        </button>
+      </div>
+      <div class="to-cart">
+        <button type="button" class="cart-btn" name="button">
+          add to cart
+        </button>
+      </div>
+    </div>
+    <!-- xxx fourth product xxx -->
+
+    <!-- fifth product -->
+    <div class="card-content">
+      <a href="#">
+        <div class="img-block">
+          <img class="card-image" src="assets\img\prod-img-2.jpg" alt="">
+        </div>
+        <div class="card-desc">
+          <span class="c-details">
+            Mama doc choco pancake mix 700g
+          </span>
+        </a>
+        <div class="p-price">
+          <div>
+            <span>#1,990</span>
+            <span class="odd-price">#2,150</span>
+          </div>
+          <img src="assets\svg\outline_favourite.svg" alt="">
+        </div>
+        <button type="button" class=" cart-responsive" name="button">
+          add to cart
+        </button>
+      </div>
+      <div class="to-cart">
+        <button type="button" class="cart-btn" name="button">
+          add to cart
+        </button>
+      </div>
+    </div>
+    <!-- xxx fifth product xxx -->
+
+    <!-- sixth product -->
+    <div class="card-content">
+      <a href="#">
+        <div class="img-block">
+          <img class="card-image" src="assets\img\prod-img-2.jpg" alt="">
+        </div>
+        <div class="card-desc">
+          <span class="c-details">
+            Mama doc choco pancake mix 700g
+          </span>
+        </a>
+        <div class="p-price">
+          <div>
+            <span>#1,990</span>
+            <span class="odd-price">#2,150</span>
+          </div>
+          <img src="assets\svg\outline_favourite.svg" alt="">
+        </div>
+        <button type="button" class=" cart-responsive" name="button">
+          add to cart
+        </button>
+      </div>
+      <div class="to-cart">
+        <button type="button" class="cart-btn" name="button">
+          add to cart
+        </button>
+      </div>
+    </div>
+    <!-- xxx sixth product xxx -->
+  </div>
+</div>
+<!--xxx fifth card xxx-->
+
+<div class="emptydiv">
+  <p class="heading">Trusted partners</p>
+</div>
+</main>
+
+<div class="partners-logo container">
+  <img src="assets\img\logo-spar.png" class="logo-img" alt="logo not found" title="spar">
+  <img src="assets\img\logo-medplus.png" class="logo-img" alt="logo not found" title="medplus">
+  <img src="assets\img\logo-officerus.png" class="logo-img" alt="logo not found" title="officerus">
+  <img src="assets\img\logo-chi.png" class="logo-img" alt="logo not found" title="chi">
+  <img src="assets\img\logo-nestle.png" class="logo-img" alt="logo not found" title="nestle">
+  <img src="assets\img\logo-unilever.png" class="logo-img" alt="logo not found" title="unilever">
+  <img src="assets\img\logo-reckitt.png" class="logo-img" alt="logo not found" title="reckitt">
+  <img src="assets\img\logo-belimpex.png" class="logo-img" alt="logo not found" title="belimpex">
+  <img src="assets\img\logo-nivea.png" class="logo-img" alt="logo not found" title="nivea">
+  <img src="assets\img\logo-hayat.png" class="logo-img" alt="logo not found" title="hayat">
+  <img src="assets\img\logo-funtuna.png" class="logo-img" alt="logo not found" title="funtuna">
+  <img src="assets\img\logo-zartech.png" class="logo-img" alt="logo not found" title="zartech">
+  <img src="assets\img\logo-redbull.png" class="logo-img" alt="logo not found" title="redbull">
+</div>
+
+<div class="emptydiv container">
+  <h3>Supermart: Online Grocery Store in Lagos and Online Supermarket</h3>
+  <p>
+    Supermart.ng is the leading online supermarket and grocery delivery service in Nigeria. Order online from over 10,000 groceries and receive same-day delivery. Visit your favorite online food store, Supermart.ng, for the best online same-day delivery shopping in Nigeria. On Supermart.ng, you can buy groceries online and get the best food shopping offers compared to any other online supermarket in Nigeria. This online grocery store in Lagos is great for grocery shopping and home delivery service. Online grocery shopping should be easy and that’s what we do best at Supermart.ng – we ensure that in our online supermarket in Lagos, you not only get great food shopping online offers, supermarket delivery but also the kind of excellent service you expect in an online food store. Shop here to get the best prices and discounts on food, beverages, and household products when you do your online grocery shopping in Lagos or from anywhere in Nigeria.
+  </p>
+  <p>
+    When you’re considering delivery services in Lagos, Supermart.ng should be top of the list of food delivery companies – we deliver to all locations from Victoria Island to Surulere. When you order online, you get the grocery direct to your door no matter the length of your list of provision items. We are a proudly Nigerian grocery store that is at the top of the list of shopping sites in Nigeria. If you love your local Nigerian ingredients but don’t want the stress of going to markets, you can trust this online market in Nigeria with your provision shopping and food shopping list. We cater to all kinds of customers including those interested in wholesale groceries and buying in bulk for their homes or offices. We serve customers who treasure their time which is why we offer same day delivery in Lagos in all locations including Lekki, Ajah, Ikeja, Yaba, and other central parts of the state. Online shopping should be easy which is why we make our website and online shopping app user friendly.
+  </p>
+  <p>
+    Supermart.ng is one of the best online shopping sites in Nigeria. Based on the number of products we sell, we are the biggest online supermarket in Lagos, Nigeria. For those who are price conscious, you will also find it is one of the cheapest online stores where the cost of food is very affordable and caters to all budgets. Our wide selection of groceries includes product categories like fruits, vegetables, meat, chicken, fish, toiletries, beauty products, cosmetics, cleaning products, snacks, drinks, alcohol, canned goods, medicines, books, office supplies, and lots more. Because we have the largest assortment of groceries in Nigeria, you'll be sure to find everyday essentials like bread, eggs, tea, cooking oil, sardines, garri, yam, carrots, apples, avocado, cornflakes, noodles, tea, coffee, soft drinks, juice, soap, deodorants, toothpaste, bleach, air fresheners, diapers, hand wash, toilet tissue, pens, printing paper and so much more.
+  </p>
+  <p>
+    Supermart.ng is the only grocery supermarket where you can fulfill your entire shopping basket without having to drive to various stores and that's because we have all the leading brands like Coke, Fanta, Nescafe, Indomie, Power Oil, Ola Ola, Honeywell, Indomie, Peak, Golden Morn, Heinz, Milo, Lipton, Jik, Hypo, Ariel, Kellogg's, Nutzy, De Rica, Mamador, Gulder, Heineken, Orijin, Chivita, Dano, Oldenburger, Hollandia, Boulos, Nivea, Vaseline, Colgate, Pringles, McVities, Air Wick, Dettol. We're a one-stop shop near you, your very own grocery list app; it doesn't matter what part of your home you're thinking of, we've got the products for your kitchen, living room, bathroom, bedroom, and even the office.
+  </p>
+</div>
+</div>
+
+<!-- Footer -->
+<footer>
+  <div class="footer-container">
+    <div class="footer-content">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">e-wallet</a>
+      <a href="#">jobs</a>
+      <a href="#">blog</a>
+      <a href="#">contact</a>
+      <a href="#">press</a>
+      <a href="#">privacy</a>
+      <a href="#">cookie</a>
+      <a href="#">terms</a>
+      <a href="#">coporate purchases</a>
+    </div>
+  <!-- social links -->
+    <div class="media-links">
+      <span>FollowUs:</span>
+      <a href="https://www.facebook.com" target="_blank">
+        <img src="assets\svg\facebook.svg" class="svg-style" alt="svg not found">
+        <span>Facebook</span>
+      </a>
+      <a href="https://www.whatsapp.com" target="_blank">
+        <img src="assets/svg/whatsapp.svg" class="svg-style" alt="svg not found">
+        <span>Whatsapp</span>
+      </a>
+      <a href="https://www.instagram.com" target="_blank">
+        <img src="assets/svg/instagram.svg" class="svg-style" alt="svg not found">
+        <span>Instagram</span>
+      </a>
+    </div>
+  </div>
+</footer>
+
+<!-- Cookie-->
+<div class="fixed-footer">
+  <span>
+    We use cookies to enhance your shopping experience. By continuing to browse the site, you are agreeing to our use of cookies.
+    <a href="#"class="text-warning">Find out more here</a>
+  </span>
+  <button type="button" name="button" class="accept-btn">Accept</button>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Font awesome -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js" charset="utf-8"></script>
+<!-- Scripts -->
+<script src="js/main.js" charset="utf-8"></script>
+</body>
+</html>
