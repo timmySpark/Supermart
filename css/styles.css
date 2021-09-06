@@ -102,6 +102,9 @@ a:hover{
   box-shadow: 5px 5px 10px gray;
 }
 
+.img-resp{
+  display: none;
+}
 .search-block{
   border: 1px solid #ffa500;
   width:450px !important;
@@ -175,7 +178,7 @@ a:hover{
     .menu{
       display: flex;
       align-items: center;
-      justify-content: space-between;
+      justify-content: space-around;
     }
 
     .text:nth-child(1) {
@@ -194,23 +197,26 @@ a:hover{
       display: none;
     }
     .img-style{
-      width: 10vw;
-      visibility: hidden;
+      display: none;
+    }
+    .img-resp{
+      display: flex;
     }
     .search-block{
-      margin-bottom: 0;
-      width:40vw !important;
+      width:100% !important;
     }
     .btn-style{
       font-size: 12px;
-      width:58.8px;
-      text-align: center;
+      width:60%;
+      text-align:center;
+    }
+    .text-size{
+      display: flex;
+      align-items:center;
+      justify-content: space-between;
     }
     .text-size span{
       display: none;
-    }
-    .text-size img{
-      width: 10vw;
     }
     .signin{
       display: none;
@@ -303,8 +309,8 @@ a:hover{
     .car-img{
       width: 90vw !important;
     }
-  }
-  */
+  } */
+
 
   /*xxx Carousels xxx*/
 
@@ -578,3 +584,9 @@ a:hover{
     border-radius: 3px;
     transition:all ease-in-out .2s;
   }
+  /* @media only screen and (max-width:575px) {
+    .footer-container{
+      min-height:100px;
+      max-height:200px;
+    }
+  } */
