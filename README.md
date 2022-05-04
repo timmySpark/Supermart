@@ -1,3 +1,3 @@
 # Supermart
 
-Design of Supermart website
+design of Supermart website (clone)
